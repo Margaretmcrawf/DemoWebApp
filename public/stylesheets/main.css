@@ -3,11 +3,16 @@ body {
 }
 
 h1 {
-  color: orange;
+  color: black;
   text-align: center;
 }
 
 p {
   font-family: "Arial";
   font-size: 30px;
+  text-align: center;
+}
+
+.messagesDiv p {
+	text-align: center;
 }
