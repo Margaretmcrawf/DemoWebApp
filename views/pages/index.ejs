@@ -33,7 +33,11 @@
         $('<div/>').text(text).appendTo($('#messagesDiv'));
         $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
       };
+      function clearData() {
+      	myDataRef.remove();
+      }
     </script>
+    <button onclick="clearData()">Click Here to Clear Messages</button>
 </body>
 
 </html>
