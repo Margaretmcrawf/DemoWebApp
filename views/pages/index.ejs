@@ -30,7 +30,7 @@
         displayChatMessage(message.text);
       });
       function displayChatMessage(text) {
-        $('<div/>').text(text).prepend($('<em/>').text('')).appendTo($('#messagesDiv'));
+        $('<div/>').text(text).appendTo($('#messagesDiv'));
         $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
       };
     </script>
