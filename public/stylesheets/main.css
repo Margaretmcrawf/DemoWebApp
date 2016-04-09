@@ -22,3 +22,8 @@ p {
   background: #826180;
   color: white;
   padding-bottom: 80px; }
+
+.inputForm {
+	text-align: center;
+	width: 400px;
+}
