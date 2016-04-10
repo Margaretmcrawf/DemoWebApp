@@ -13,8 +13,8 @@
   <h1>Messages????????</h1>
   </div>
 
-  <div class="inputForm"><input type='text' id='messageInput' placeholder='Message'></div>
   <div id="messagesDiv"></div>
+  <div class="inputForm"><input type='text' id='messageInput' placeholder='Message'></div>
 
   <script>
   	var myDataRef = new Firebase('https://intense-heat-8090.firebaseio.com/')
@@ -30,7 +30,7 @@
         displayChatMessage(message.text);
       });
       function displayChatMessage(text) {
-        $('<div/>').text(text).appendTo($('#messagesDiv'));
+        $('<p/>').text(text).appendTo($('#messagesDiv'));
         $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
       };
       function clearData() {
@@ -40,6 +40,9 @@
     </script>
     <p> </p>
     <div class="inputForm"><button class="button" onclick="clearData()">Clear Messages</button></div>
+    <div class="footer">
+    	<p> </p>
+    </div>
 </body>
 
 </html>

@@ -1,12 +1,13 @@
 .jumbotron {
   background: #129793;
-  color: white;
+  color: #129793;
   padding-top:40px;
   padding-bottom: 40px; 
   font-family: Sans-Serif;
-  margin-top: 0px;
-  margin-bottom: 20px;
+  margin-top: -10px;
+  margin-bottom: 0px;
   width: 100%;
+  position:fixed;
 
 }
 
@@ -22,20 +23,22 @@ body {
 
 p {
   font-family: Sans-Serif;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 #messagesDiv {
+	position: relative;
 	text-align: center;
-	font-size: 20px;
+	font-size: 0px;
 	font-family: sans-serif;
-}
-
-.inputForm {
-	text-align: center;
+	padding-bottom: 110px;
+	top: 210px;
+	/*height: 300px;*/
+	z-index: -2;
+	padding-top: 20px;
 }
 
 input[type="text"] {
@@ -45,6 +48,9 @@ input[type="text"] {
   width: 70%;
   margin-bottom:20px;
   font-size: 20px;
+  position: fixed;
+  bottom: 1%;
+  left: 15%;
 }
 
 .button {
@@ -56,9 +62,26 @@ input[type="text"] {
     border-radius: 8px;
     padding: 10px;
     font-size: 20px;
+    position:fixed;
+    top: 250px;
+    text-align: right;
+    float: right;
 }
 
 .button:hover {
     background-color: #129793; /* Teal */
     color: white;
+}
+
+.footer {
+	color: white;
+	background: white;
+	position: fixed;
+	padding-bottom: 50px;
+	padding-top:50px;
+	z-index: -1;
+	bottom: 0%;
+	width: 100%;
+	border-top: medium #129793;
+	border-style: solid;
 }
