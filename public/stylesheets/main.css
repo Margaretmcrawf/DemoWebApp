@@ -1,5 +1,5 @@
 .jumbotron {
-  background: #826180;
+  background: #129793;
   color: white;
   padding-top:40px;
   padding-bottom: 40px; 
@@ -52,13 +52,13 @@ input[type="text"] {
     transition-duration: 0.4s;
     background-color: white;
     color: black;
-    border: 2px solid #826180;
+    border: 2px solid #129793;
     border-radius: 8px;
     padding: 10px;
     font-size: 20px;
 }
 
 .button:hover {
-    background-color: #826180; /* Purple */
+    background-color: #129793; /* Teal */
     color: white;
 }
