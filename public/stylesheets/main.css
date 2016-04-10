@@ -6,13 +6,14 @@
   font-family: Sans-Serif;
   margin-top: 0px;
   margin-bottom: 20px;
+  width: 100%;
 
 }
 
 .jumbotron h1 {
 	text-align: center;
 	color: white;
-	font-size: 80px;
+	font-size: 60px;
 }
 
 body {
