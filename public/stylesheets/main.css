@@ -52,7 +52,9 @@ input[type="text"] {
     color: black;
     border: 2px solid #826180;
     border-radius: 8px;
-    width: 125px;
+    padding: 10px;
+    font-size: 20px;
+
 
 }
 
